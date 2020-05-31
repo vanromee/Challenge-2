@@ -21,5 +21,3 @@ function addLeadingZero(number){
 	}
 	return number;
 }
-
-
