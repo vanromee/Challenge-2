@@ -21,3 +21,11 @@ function addLeadingZero(number){
 	}
 	return number;
 }
+
+
+function changeTheme(){
+	document.body.style.background = "#253D5B";
+	document.getElementById("toggle").src = "images/day.png";
+	document.getElementById("planet").src = "images/moon.png";
+	document.body.style.color = "#FFFFFF";
+}
