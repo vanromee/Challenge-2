@@ -8,8 +8,16 @@ function showClock() {
 	var minutes = date.getMinutes();
 	var seconds = date.getSeconds();
 
-	clock.innerHTML = hours + ':' + minutes + ':' + seconds;
+	clock.innerHTML = addLeadingZero(hours) + ':' + addLeadingZero(minutes) + ':' + addLeadingZero(seconds);
 
 }
 
 setInterval(showClock, 1000)
+
+
+function addLeadingZero(number){
+	if(number < 10){
+		number = "0" + number;
+	}
+	return number;
+}
