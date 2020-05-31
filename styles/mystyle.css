@@ -17,3 +17,16 @@ h1 {
 	text-align: center;
 	margin-top: 300px;
 }
+
+
+@keyframes sun {
+	0% {transform: scale(0.9);}
+	50%{transform: scale(1);}
+	100%{transform: scale(0.9);}
+}
+
+.sunMove {
+	animation: sun 2s infinite;
+}
+
+
