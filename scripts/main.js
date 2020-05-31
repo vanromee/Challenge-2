@@ -1,4 +1,7 @@
 
+showClock();
+document.getElementById("call").style.visibility = "hidden";
+
 function showClock() {
 	var clock = document.getElementById("clock");
 
@@ -10,9 +13,10 @@ function showClock() {
 
 	clock.innerHTML = addLeadingZero(hours) + ':' + addLeadingZero(minutes) + ':' + addLeadingZero(seconds);
 
+setInterval(showClock, 1000)
 }
 
-setInterval(showClock, 1000)
+
 
 
 function addLeadingZero(number){
@@ -29,3 +33,12 @@ function changeTheme(){
 	document.getElementById("planet").src = "images/moon.png";
 	document.body.style.color = "#FFFFFF";
 }
+
+
+function incomingCall(){
+	console.log("working phone");
+	document.getElementById("call").style.visibility = "visible";
+
+}
+
+setInterval(incomingCall, 30000)
