@@ -16,7 +16,6 @@ function showClock() {
 setInterval(showClock, 1000)
 }
 
-
 function addLeadingZero(number){
 	if(number < 10){
 		number = "0" + number;
@@ -24,6 +23,14 @@ function addLeadingZero(number){
 	return number;
 }
 
+function showDate(){
+	var today = new Date();
+
+	var dddd = today.getDay();
+	var month = today.getMonth();
+
+	date.innerHTML = day + month;
+}
 
 function changeTheme(){
 	document.body.style.background = "#253D5B";

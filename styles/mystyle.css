@@ -36,6 +36,80 @@ h1 {
 	animation: sun 2s infinite;
 }
 
+/*Today's reminder*/
+
+.toDo{
+	position: absolute;
+	width: 405px;
+	height: 425px;
+	left: 1450px;
+	top: 520px;
+	background-color: #FFEBA5;
+	border-radius: 43px;
+}
+
+h2 {
+	position: absolute;
+	width: 134px;
+	height: 59px;
+	left: 25px;
+	top: 40px;
+	font-size: 50px;
+}
+
+h3 {
+	position: absolute;
+	font-size: 36px;
+
+}
+
+.divider {
+	position: absolute;
+	width: 399px;
+	top: 195px;
+	border: 3px solid rgba(0, 0, 0, 0.15);
+
+}
+
+.box {
+	position: absolute;
+	width: 405px;
+	height: 225px;
+	top: 200px;
+
+	background-color: #FFFFFF;
+}
+
+.circle {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 30px;
+	top: 25px;
+
+	border: 1px solid #000000;
+	border-radius: 50%;
+}
+
+h4 {
+	position: absolute;
+	width: 405px;
+	height: 28px;
+	left: 75px;
+	top: 8px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.line {
+	position: absolute;
+	width: 405px;
+/*	height:0px;*/
+	top: 80px;
+	border: 0.5px solid #000000;
+}
+
 
 /*incoming Call*/
 
