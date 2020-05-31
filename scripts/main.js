@@ -17,8 +17,6 @@ setInterval(showClock, 1000)
 }
 
 
-
-
 function addLeadingZero(number){
 	if(number < 10){
 		number = "0" + number;
