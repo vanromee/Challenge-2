@@ -40,10 +40,10 @@ h1 {
 
 .toDo{
 	position: absolute;
-	width: 405px;
-	height: 425px;
+	width: 350px;
+	height: 360px;
 	left: 1450px;
-	top: 520px;
+	top: 585px;
 	background-color: #FFEBA5;
 	border-radius: 43px;
 }
@@ -54,7 +54,7 @@ h2 {
 	height: 59px;
 	left: 25px;
 	top: 40px;
-	font-size: 50px;
+	font-size: 45px;
 }
 
 h3 {
@@ -65,7 +65,7 @@ h3 {
 
 .divider {
 	position: absolute;
-	width: 399px;
+	width: 344px;
 	top: 195px;
 	border: 3px solid rgba(0, 0, 0, 0.15);
 
@@ -73,8 +73,8 @@ h3 {
 
 .box {
 	position: absolute;
-	width: 405px;
-	height: 225px;
+	width: 350px;
+	height: 160px;
 	top: 200px;
 
 	background-color: #FFFFFF;
@@ -95,17 +95,16 @@ h4 {
 	position: absolute;
 	width: 405px;
 	height: 28px;
-	left: 75px;
+	left: 80px;
 	top: 8px;
-	font-size: 18px;
+	font-size: 17px;
 	font-style: normal;
 	font-weight: normal;
 }
 
 .line {
 	position: absolute;
-	width: 405px;
-/*	height:0px;*/
+	width: 350px;
 	top: 80px;
 	border: 0.5px solid #000000;
 }

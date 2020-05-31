@@ -34,9 +34,13 @@ function showDate(){
 
 function changeTheme(){
 	document.body.style.background = "#253D5B";
+	document.body.style.color = "#FFFFFF";
 	document.getElementById("toggle").src = "images/day.png";
 	document.getElementById("planet").src = "images/moon.png";
-	document.body.style.color = "#FFFFFF";
+	document.getElementById("toDo").style.backgroundColor = "#434343";
+	document.getElementById("box").style.backgroundColor = "#000000";
+	document.getElementById("circle").style.borderColor = "#FFFFFF";
+	document.getElementById("line").style.borderColor = "#FFFFFF";
 }
 
 
