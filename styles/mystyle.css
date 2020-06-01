@@ -50,16 +50,20 @@ h1 {
 
 h2 {
 	position: absolute;
-	width: 134px;
+	width: 405px;
 	height: 59px;
 	left: 25px;
 	top: 40px;
 	font-size: 45px;
 }
 
-h3 {
+p {
 	position: absolute;
-	font-size: 36px;
+	width: 405px;
+	height: 42px;
+	left: 25px;
+	top: 110px;
+	font-size: 28px;
 
 }
 
@@ -147,7 +151,7 @@ h4 {
 	width: 12%;
 	height:12%;
 	position: absolute;
-	animation: spin 12s linear 0s infinite;
+	animation: spin 10s linear 0s infinite;
 }
 
 @keyframes spin {

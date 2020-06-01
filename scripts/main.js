@@ -23,14 +23,9 @@ function addLeadingZero(number){
 	return number;
 }
 
-function showDate(){
-	var today = new Date();
+var date = new Date();
+document.getElementById("date").innerHTML = date.toDateString();
 
-	var dddd = today.getDay();
-	var month = today.getMonth();
-
-	date.innerHTML = day + month;
-}
 
 function changeTheme(){
 	document.body.style.background = "#253D5B";
