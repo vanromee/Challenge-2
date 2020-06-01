@@ -142,12 +142,12 @@ h4 {
 
 
 .ship {
-	top: 245px;
+	top: 235px;
 	left: 285px;
 	width: 12%;
 	height:12%;
 	position: absolute;
-	animation: spin 10s linear 0s infinite;
+	animation: spin 15s linear 0s infinite;
 }
 
 @keyframes spin {
