@@ -16,7 +16,7 @@ function showClock() {
 setInterval(showClock, 1000)
 }
 
-function addLeadingZero(number){
+function addLeadingZero(number) {
 	if(number < 10){
 		number = "0" + number;
 	}
@@ -27,7 +27,7 @@ var date = new Date();
 document.getElementById("date").innerHTML = date.toDateString();
 
 
-function changeTheme(){
+function changeTheme() {
 	document.body.style.background = "#253D5B";
 	document.body.style.color = "#FFFFFF";
 	document.getElementById("toggle").src = "images/day.png";
@@ -39,10 +39,14 @@ function changeTheme(){
 }
 
 
-function incomingCall(){
+function incomingCall() {
 	console.log("working phone");
 	document.getElementById("call").style.visibility = "visible";
 
 }
 
 setInterval(incomingCall, 30000)
+
+function answer() {
+	document.getElementById("call").style.visibility ="hidden";
+}
