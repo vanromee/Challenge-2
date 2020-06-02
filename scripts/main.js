@@ -4,7 +4,7 @@ document.getElementById("call").style.visibility = "hidden";
 
 function showClock() {
 	var clock = document.getElementById("clock");
-
+	
 	var date = new Date();
 
 	var hours = date.getHours();
@@ -37,7 +37,6 @@ function changeTheme() {
 	document.getElementById("circle").style.borderColor = "#FFFFFF";
 	document.getElementById("line").style.borderColor = "#FFFFFF";
 }
-
 
 
 function incomingCall() {
