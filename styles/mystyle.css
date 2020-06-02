@@ -147,7 +147,7 @@ h4 {
 	width: 12%;
 	height:12%;
 	position: absolute;
-	animation: spin 15s linear 0s infinite;
+	animation: spin-anticlock 15s linear 0s infinite;
 }
 
 @keyframes spin {
@@ -156,5 +156,31 @@ h4 {
 	}
 	to {
 		transform: rotate(360deg);
+	}
+}
+
+/*pink planet*/
+.pink {
+	position: absolute;
+	top: 940px;
+	left: 460px;
+	animation: spin-anticlock 50s infinite;
+}
+
+.ship2 {
+	top: 925px;
+	left:415px;
+	width: 8%;
+	height: 8%;
+	position: absolute;
+	animation: spin 15s linear 0s infinite;
+}
+
+@keyframes spin-anticlock {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(0deg);
 	}
 }
